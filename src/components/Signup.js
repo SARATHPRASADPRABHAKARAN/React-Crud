@@ -69,6 +69,7 @@ function dosignup (e){
  }
  axios.post('http://localhost:9000/signup',signupData)
       .then((response)=> {
+        console.log("test")
         alert(response.data.message)
       })
 
