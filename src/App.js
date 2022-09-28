@@ -7,6 +7,7 @@ import {
 } from "react-router-dom";
 import Login from './components/login'
 import Signup from './components/Signup'
+import Table  from './components/Table';
 function App() {
   return (
     <div >
@@ -17,6 +18,7 @@ function App() {
 
         </Route>
         <Route path="/signupage" element={<Signup />}></Route>
+        <Route path="/Table" element={<Table />}></Route>
     </Routes>
   </BrowserRouter>
        
